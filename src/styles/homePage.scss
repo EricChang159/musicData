@@ -1,0 +1,108 @@
+#home-page{
+    overflow: hidden;
+}
+
+.home-header-box{
+    border:3px solid red;
+    background: url('../image/hpme-page-background.png') no-repeat;
+    background-size: cover;
+    width:100vw;
+    height:253px;
+    .home-header-menu{
+        display: inline-block;
+        position:relative;
+        padding:5%;
+    }
+    .home-header-title{
+        color:white;
+        position:relative;
+        top:13%;
+        left:5%;
+        h3{
+            font-size:30px;
+            font-family: Calibri;
+            margin-bottom:-5px;
+            text-shadow: .2em .2em .2em black;
+        }
+        h2{
+            font-size:40px;
+            font-weight:bold;
+            font-family:candara;
+            text-shadow: .1em .1em .1em black;
+        }
+    }
+}
+.home-main-box{
+    height:100vh;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: relative;
+    background-color:white;
+    top:-44px;
+    text-align: center;
+    .main-content-upper{
+        color:#8b8d8c;
+        font-family:'Engravers MT';
+        margin-bottom:40px;
+
+        h1{
+            font-size:30px;
+            padding-top: 15px;
+        }
+    }
+    .home-main-carousel{
+        display: flex;
+        .carousel-items{
+            flex:1 1 98px;
+            margin-top:50px;
+            span{
+                font-size:10px;
+                font-family: 'Candara';
+            }
+            .main-photo-flex{
+                width:100%;
+                display:flex;
+                justify-content: center;
+                padding:5px;
+            }
+            .home-main-photo{
+                flex:1 1 98px;
+                background:url('../image/ID4486167e8fec4d4438a12707da02_A2_Rectangle_22_pattern.png') no-repeat;
+                background-size:cover;
+                height:133px;
+                max-width:90px;
+            }
+        }
+    }
+}
+.home-main-carousel div:nth-child(2) {
+    position:relative;
+    top:-30px;
+}
+.num-box{
+    display:flex;
+    justify-content: center;
+    .home-main-number {
+        border-radius: 50%;
+        text-align: center;
+        width:7px;
+        height: 7px;
+        max-width: 7px;
+        flex:1 0 10px;
+        margin-top:-15px;
+        background:gray;
+    }
+}
+
+.home-recommend-artist{
+    color:gray;
+    line-height:35px;
+    h1{
+        font-size:30px;
+        font-family:'Engravers MT'
+    }
+    span{
+        font-size:22px;
+        font-family: 'Engravers MT'
+    }
+}
